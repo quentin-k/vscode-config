@@ -1,0 +1,61 @@
+{
+    // Vim settings
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/bin/nvim",
+    // Editor settings
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking": "phase",
+    // Terminal settings
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "kitty",
+    // Theme settings
+    "workbench.colorTheme": "Zenburn Dark Matter - Deep Sea - Aquamarine",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "editor.fontLigatures": true,
+    "bracket-pair-colorizer-2.colors": [
+        "#7cb8bb",
+        "#93e0e3",
+        "#5f7f5f",
+        "#dc8cc3",
+        "#dca3a3",
+        "#e0cf9f",
+        "#7cb8bb"
+    ],
+    // Language settings
+    "rust-client.updateOnStartup": true,
+    // Debug settings
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.console.fontFamily": "JetBrains Mono",
+    "debug.console.fontSize": 13,
+    "debug.inlineValues": true,
+    // File settings
+    "files.autoSave": "afterDelay",
+    "files.enableTrash": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    // Explorer settings
+    "explorer.incrementalNaming": "smart",
+    "explorer.openEditors.visible": 10,
+    "explorer.sortOrder": "mixed",
+    // Workbench settings
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "window.restoreWindows": "none",
+    // Search settings
+    "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+    "search.smartCase": true,
+    // Disable telemetry
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "diffEditor.ignoreTrimWhitespace": true
+}
